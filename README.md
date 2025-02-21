@@ -1,6 +1,3 @@
-# flightSearchAgent
-An agentic approach to searching the best flight deals
-
 # OpenFlightAgent
 
 An open-source agentic service for finding the lowest priced flights based on user constraints. Built using open-source LLMs and frameworks.
