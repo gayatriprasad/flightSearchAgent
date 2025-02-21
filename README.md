@@ -26,3 +26,18 @@ The system uses a multi-agent architecture:
 - Flight data APIs (to be determined)
 
 ## Project Structure
+
+For Flight Data APIs, the top contenders are :
+
+- Amadeus API - Has a free tier, comprehensive data
+- Skyscanner API - Recently changed access model but still usable
+- FlightLabs API - Good free tier, easier to integrate
+- Duffel API - Modern API, good for actual bookings
+
+For Open Source LLMs:
+
+- Llama2 (7B or 13B) - Good overall performance, manageable size
+- Mistral 7B - Excellent performance-to-size ratio
+- ONNX optimized models for faster inference
+
+Let's start with FlightLabs API for data (simpler to integrate) and Mistral 7B for our LLM.
